@@ -1,24 +1,41 @@
+
+@media(min-width:600px){
 .planning_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     padding-left: 200px;
     padding-right: 200px;
-    padding-top: 50px;
-}
+    padding-top: 30px;
+    font-size: 20px;
+    gap: 15px;
+}}
 
 .travel_planing > h2 {
     text-align: center;
     font-size: 28px;
     }
 
-    .icon_image {
-        width: 50px;
+    .text-planing_other {
+        display: block;
     }
-    .planning_container> .case_foto {
-        margin-right: 50px;}
-        
-        .text-planing_other {
-            display: flex;
+    .planing_block> .icon_image {
+        width: 150px;
+        padding-right: 40px;
+      
+    }
+    .text-planing_other> .planing_block {
+        display: flex;
+        padding-top: 30px;
+    }
+
+    .text-planing_text> p {
+padding-top: 30px;
+padding-bottom: 30px;
+    }
+
+    .planing_block> .text_image> h3 {
+     color:#b2a385;
+     padding-bottom: 10px;
         }
-        
+    

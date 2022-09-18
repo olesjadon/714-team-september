@@ -1,31 +1,24 @@
-.container{
-    padding: 0 5vw;
-    max-width: 1200px;
-    
+.planning_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
 }
-.text_planning> .container> img {
-    width: 600px;
-    float: left;
-    margin-left: 50px;
-    margin-bottom: 50px;
-}
-.container_icon> img {
-width: 60px;
-margin: 60px;
-float: left;
-}
-.text_planning> .container> text{
-    padding-right: 0px;
-    text-align: justify;
-    
-    width: 100%;
+
+.travel_planing > h2 {
+    text-align: center;
+    font-size: 28px;
     }
-    .text_planning> .container> p {
-        width: 1000px;
-        text-align: justify;
-        margin: auto;
-         }
-    
-    h2 {
-        text-align: center;
-            }
+
+    .icon_image {
+        width: 50px;
+    }
+    .planning_container> .case_foto {
+        margin-right: 50px;}
+        
+        .text-planing_other {
+            display: flex;
+        }
+        
